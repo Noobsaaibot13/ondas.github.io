@@ -1,0 +1,83 @@
+{
+  "checks": [
+    {
+      "name": "Índice con dos pósters y tarjeta bloqueada",
+      "pass": true,
+      "evidence": {
+        "links": [
+          "p_ster_cient_fico_a0_vertical_los_p_lsares_rub_n_concepci_n_universidad_de_panam.html",
+          "p_ster_cient_fico_vertical_el_l_ser_rub_n_concepci_n_universidad_de_panam.html"
+        ],
+        "days": "01",
+        "hours": "12",
+        "disabled": true,
+        "cards": 3,
+        "overflow": false,
+        "photo": 1055
+      }
+    },
+    {
+      "name": "Fecha de apertura correcta en Panamá",
+      "pass": true,
+      "evidence": {
+        "links": [
+          "p_ster_cient_fico_a0_vertical_los_p_lsares_rub_n_concepci_n_universidad_de_panam.html",
+          "p_ster_cient_fico_vertical_el_l_ser_rub_n_concepci_n_universidad_de_panam.html"
+        ],
+        "days": "01",
+        "hours": "12",
+        "disabled": true,
+        "cards": 3,
+        "overflow": false,
+        "photo": 1055
+      }
+    },
+    {
+      "name": "El botón bloqueado impide navegar",
+      "pass": true
+    },
+    {
+      "name": "Índice móvil sin desborde y con movimiento reducido",
+      "pass": true,
+      "evidence": {
+        "overflow": false,
+        "grid": "350px",
+        "animations": "none"
+      }
+    },
+    {
+      "name": "Un segundo antes sigue bloqueado",
+      "pass": true
+    },
+    {
+      "name": "A las 00:00 exactas se habilita",
+      "pass": true
+    },
+    {
+      "name": "La tarjeta habilitada abre su sección",
+      "pass": true
+    },
+    {
+      "name": "La URL directa también queda bloqueada antes de la fecha",
+      "pass": true
+    },
+    {
+      "name": "Púlsares conserva sus textos y cámara",
+      "pass": true
+    },
+    {
+      "name": "Figuras, notas y fuentes del láser sin alteraciones",
+      "pass": true
+    },
+    {
+      "name": "Los 18 párrafos científicos del láser se conservan",
+      "pass": true
+    },
+    {
+      "name": "Sin errores JavaScript",
+      "pass": true,
+      "evidence": []
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,15 @@
+[27032:19824:1116/092210.441:ERROR:components\os_crypt\async\browser\os_crypt_win.cc:63] Failed to encrypt: El sistema no puede encontrar el archivo especificado. (0x2)
+[27032:11744:1116/092210.638:ERROR:chrome\installer\util\google_update_settings_win.cc:544] Failed opening key Software\Microsoft\EdgeUpdate\ClientStateMedium\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062} to set usagestats; result: 5
+[27032:11744:1116/092210.638:ERROR:chrome\installer\util\google_update_settings_win.cc:587] Failed opening key Software\Microsoft\EdgeUpdate\ClientStateMedium\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062} to set urlstats; result: 5
+[27032:26720:1116/092211.114:ERROR:components\password_manager\core\browser\password_store\login_database_async_helper.cc:230] Encryption is not available.
+[27032:26992:1116/092211.271:ERROR:components\password_manager\core\browser\password_store\login_database_async_helper.cc:230] Encryption is not available.
+
+DevTools listening on ws://127.0.0.1:9224/devtools/browser/54294a2d-c951-4dbb-8493-85213a3a5af8
+[27032:26452:1116/092211.693:ERROR:chrome\installer\util\google_update_settings_win.cc:544] Failed opening key Software\Microsoft\EdgeUpdate\ClientStateMedium\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062} to set usagestats; result: 5
+[27032:19824:1116/092211.697:ERROR:chrome\browser\ui\edge_window_tab_manager\api\wtm_interface_impl.cc:472] Failed to open registry key
+[27032:28132:1116/092215.509:ERROR:services\device\public\cpp\geolocation\system_geolocation_source_win.cc:124] Failed to create IAppCapability: Acceso denegado. (0x80070005)
+[27032:27352:1116/092216.038:ERROR:chrome\browser\edge_aadc\user_age_utils_win.cc:163] couldn't get user2.
+[27032:27352:1116/092216.038:ERROR:chrome\browser\edge_aadc\user_age_utils_win.cc:310] couldn't get windows user age group.
+[27032:27352:1116/092216.038:ERROR:chrome\browser\edge_aadc\user_age_utils_win.cc:156] callback wasn't called.
+[27032:19824:1116/092218.258:ERROR:chrome\browser\component_updater\edge_optimization_guide_models_manifest_installer.cc:264] Edge LLM: catalog update failed: 5
+[27032:19824:1116/092218.261:ERROR:chrome\browser\component_updater\edge_language_detection_model_installer.cc:97] Edge Language Detection Model: On-demand update failed with error: 5

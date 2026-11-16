@@ -1,0 +1,22 @@
+const fs=require('node:fs'),path=require('node:path'),vm=require('node:vm');
+const source='C:/Users/ruben/AppData/Local/Programs/Microsoft VS Code/dcd3ad6e36/resources/app';
+const math=path.join(source,'extensions/markdown-math/notebook-out');
+const bundle=fs.readFileSync(path.join(math,'katex.js'),'utf8');
+if(!bundle.endsWith('export{xs as activate};\n'))throw new Error('Formato del módulo inesperado');
+const rendererStart=bundle.indexOf('var un=import.meta.url');
+if(rendererStart<0)throw new Error('No se encontró el adaptador de VS Code');
+const local='/* KaTeX del paquete local markdown-math de VS Code. Licencias en ThirdPartyNotices.txt. */\n(()=>{'+
+  bundle.slice(0,rendererStart)+'window.katex=rn();\n})();\n';
+const context={window:{},document:{},console};
+vm.runInNewContext(local,context);
+if(!context.window.katex.renderToString('\\frac{1}{2}').includes('katex'))throw new Error('KaTeX no disponible');
+const target=path.resolve(__dirname,'../vendor/katex');
+fs.mkdirSync(path.join(target,'fonts'),{recursive:true});
+fs.writeFileSync(path.join(target,'katex-local.js'),local);
+fs.copyFileSync(path.join(math,'katex.min.css'),path.join(target,'katex.min.css'));
+for(const font of fs.readdirSync(path.join(math,'fonts')))fs.copyFileSync(path.join(math,'fonts',font),path.join(target,'fonts',font));
+const notices=fs.readFileSync(path.join(source,'ThirdPartyNotices.txt'),'utf8').split(/\r?\n-{20,}\r?\n/);
+const licenses=notices.filter(block=>/^\s*(katex 0\.16\.21 - MIT|@iktakahiro\/markdown-it-katex - MIT)/.test(block));
+if(licenses.length!==2)throw new Error('No se encontraron ambas licencias');
+fs.writeFileSync(path.join(target,'ThirdPartyNotices.txt'),licenses.join('\n\n---------------------------------------------------------\n\n'));
+console.log('KaTeX local verificado:',context.window.katex.version);
