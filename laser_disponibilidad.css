@@ -1,0 +1,20 @@
+/* Bloqueo de fecha del láser, sin alterar los estilos del póster al abrirse. */
+.laser-time-gate {
+  min-height: 100svh; display: grid; place-items: center; padding: 38px 22px;
+  background: linear-gradient(#fcfcf1a8, #fcfcf1a8), url('images/fondo_casa_montanas_acuarela_vertical.png') center 60% / cover fixed;
+  color: #40585d; font-family: 'Segoe UI', system-ui, sans-serif;
+}
+.laser-gate-panel { width: min(620px, 100%); padding: 40px 44px; border: 1px solid #adbbb17d; border-radius: 14px; background: #fbfcf5ed; box-shadow: 0 12px 40px #40584b13; }
+.laser-gate-back { display: inline-block; color: #60746b; font-size: 12px; text-decoration: none; margin-bottom: 34px; }
+.laser-gate-back:hover { text-decoration: underline; text-underline-offset: 4px; }
+.laser-gate-eyebrow { font-size: 10px; letter-spacing: .14em; text-transform: uppercase; color: #7b8d84; margin: 0 0 18px; }
+.laser-gate-title { font: 400 clamp(42px, 7vw, 64px)/1.08 Georgia, serif; letter-spacing: -.035em; color: #40585d; margin: 0; }
+.laser-gate-title em { display: block; color: #8f7e64; font-size: .62em; margin-top: 12px; }
+.laser-gate-description { margin: 25px 0; font-size: 14px; line-height: 1.8; color: #76847c; }
+.laser-time-gate .countdown { display: flex; justify-content: space-between; gap: 8px; max-width: 370px; margin: 30px 0 12px; font-variant-numeric: tabular-nums; }
+.laser-time-gate .countdown div { text-align: center; flex: 1; }
+.laser-time-gate .countdown strong { display: block; font: 400 36px/1.1 Georgia, serif; color: #5f766d; }
+.laser-time-gate .countdown span { display: block; margin-top: 8px; font-size: 9px; letter-spacing: .12em; text-transform: uppercase; color: #8c9a8d; }
+.laser-time-gate .countdown b { font-weight: 400; color: #b0bcb0; padding-top: 5px; }
+.laser-gate-noscript { margin-top: 22px; font-size: 12px; color: #887961; }
+@media (max-width: 520px) { .laser-gate-panel { padding: 28px 23px; } .laser-gate-title { font-size: 46px; } .laser-gate-description { font-size: 13px; } }

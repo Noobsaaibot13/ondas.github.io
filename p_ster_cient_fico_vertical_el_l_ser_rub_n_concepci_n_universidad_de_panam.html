@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Póster Científico Vertical: El Láser — Rubén Concepción (Universidad de Panamá)</title>
+  <!-- Google Fonts para tipografía de revista alta y delgada -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200;300;400;500;600&family=Oswald:wght@200;300;400&display=swap" rel="stylesheet">
+  <!-- Enlace al archivo CSS modular (laser_style.css) -->
+  <link rel="stylesheet" href="laser_style.css">
+  <link rel="stylesheet" href="poster_pulsares.css">
+  <link rel="stylesheet" href="laser_acuarela.css">
+  <link rel="stylesheet" href="laser_disponibilidad.css">
+  <link rel="stylesheet" href="coleccion_posters.css">
+  <link rel="stylesheet" href="vendor/katex/katex.min.css">
+  <script defer src="vendor/katex/katex-local.js"></script>
+  <script defer src="math_poster.js"></script>
+  <script defer src="entregas.js"></script>
+  <script src="laser_script.js"></script>
+  <script src="laser_poster_config.js"></script>
+</head>
+<body data-release-page="laser">
+  <section class="laser-time-gate" id="release-locked" aria-labelledby="laser-gate-title">
+    <div class="laser-gate-panel">
+      <a class="laser-gate-back" href="index.html">← Volver a los trabajos finales</a>
+      <p class="laser-gate-eyebrow">Física Moderna · Universidad de Panamá</p>
+      <h1 class="laser-gate-title" id="laser-gate-title">El láser<em>Disponible el miércoles.</em></h1>
+      <p class="laser-gate-description">Este póster se habilita el <strong>18 de noviembre de 2026</strong>, a las <strong>00:00, hora de Panamá</strong>.</p>
+      <div class="countdown" data-countdown role="timer" aria-label="Tiempo restante para el póster de láser">
+        <div><strong data-days>--</strong><span>Días</span></div><b aria-hidden="true">:</b>
+        <div><strong data-hours>--</strong><span>Horas</span></div><b aria-hidden="true">:</b>
+        <div><strong data-minutes>--</strong><span>Min</span></div><b aria-hidden="true">:</b>
+        <div><strong data-seconds>--</strong><span>Seg</span></div>
+      </div>
+      <noscript><p class="laser-gate-noscript">El póster permanece bloqueado hasta comprobar la fecha con JavaScript.</p></noscript>
+    </div>
+  </section>
+  <main id="release-content" hidden>
+  <nav class="poster-collection-nav" aria-label="Colección de exámenes finales"><a href="index.html">← Trabajos finales</a><span>02 / El láser</span><a href="p_ster_cient_fico_a0_vertical_los_p_lsares_rub_n_concepci_n_universidad_de_panam.html">Los púlsares ↗</a></nav>
+
+  <div class="poster-stage-wrapper">
+    <!-- HOJA DEL PÓSTER CIENTÍFICO VERTICAL COMPACTO (MÁS ALTO QUE ANCHO, SIN ESPACIOS MUERTOS) -->
+    <article class="poster-sheet" id="poster-sheet">
+
+      <!-- Espacio reservado para tu imagen de fondo personalizada -->
+      <div id="custom-background-slot" class="watercolor-scene" aria-hidden="true">
+        <!-- FONDO VERTICAL DEL PÓSTER: cambia ambos src por la misma pintura con el mismo encuadre. -->
+        <div class="scene-world">
+          <img class="scene-photo" src="images/fondo_casa_montanas_acuarela_vertical.png"
+               data-zoom-src="images/fondo_casa_montanas_acuarela_vertical.png" alt="" decoding="async" fetchpriority="high">
+          <img class="scene-layer scene-mountain-mist" src="images/montanas_bruma.svg" alt="">
+        </div>
+      </div>
+
+      <!-- Detalles de bordes en las 4 esquinas -->
+      <svg class="corner-svg c-tl" viewBox="0 0 80 80">
+        <path d="M 3 72 L 3 3 L 72 3" fill="none" stroke="#7f1d1d" stroke-width="2"/>
+        <path d="M 10 56 L 10 10 L 56 10" fill="none" stroke="#b47d3c" stroke-width="1"/>
+      </svg>
+      <svg class="corner-svg c-tr" viewBox="0 0 80 80">
+        <path d="M 3 72 L 3 3 L 72 3" fill="none" stroke="#7f1d1d" stroke-width="2"/>
+        <path d="M 10 56 L 10 10 L 56 10" fill="none" stroke="#b47d3c" stroke-width="1"/>
+      </svg>
+      <svg class="corner-svg c-bl" viewBox="0 0 80 80">
+        <path d="M 3 72 L 3 3 L 72 3" fill="none" stroke="#7f1d1d" stroke-width="2"/>
+        <path d="M 10 56 L 10 10 L 56 10" fill="none" stroke="#b47d3c" stroke-width="1"/>
+      </svg>
+      <svg class="corner-svg c-br" viewBox="0 0 80 80">
+        <path d="M 3 72 L 3 3 L 72 3" fill="none" stroke="#7f1d1d" stroke-width="2"/>
+        <path d="M 10 56 L 10 10 L 56 10" fill="none" stroke="#b47d3c" stroke-width="1"/>
+      </svg>
+
+      <div class="poster-layer">
+
+        <!-- 1. ENCABEZADO DE PORTADA CON LOS DOS LOGOS OFICIALES -->
+        <header class="poster-header">
+          <div class="logo-wrap">
+            <img src="images/logo_fisica_recortado.svg" alt="Logo Escuela de Física - Facultad de Ciencias Naturales, Exactas y Tecnología">
+          </div>
+          <div class="inst-titles">
+            <h1 class="u-name">Universidad de Panamá</h1>
+            <h2 class="f-name">Facultad de Ciencias Naturales, Exactas y Tecnología</h2>
+            <p class="s-name">Escuela de Física</p>
+          </div>
+          <div class="logo-wrap">
+            <img src="images/logo_universidad_recortado.svg" alt="Escudo Oficial de la Universidad de Panamá 1935">
+          </div>
+        </header>
+
+        <!-- 2. PORTADA DIVIDIDA DEL TÍTULO PRINCIPAL CON SUBTÍTULO COMPLETO -->
+        <div class="title-banner">
+          <div class="title-banner-left">
+            <div>Emisión Estimulada,</div>
+            <div>Coherencia Cuántica y</div>
+            <div>Fotónica Contemporánea</div>
+          </div>
+          <div class="title-banner-right">
+            <h2 class="main-poster-title">EL LÁSER</h2>
+            <div class="main-poster-subtitle">Amplificación de Luz por Emisión Estimulada de Radiación — Física Moderna</div>
+          </div>
+        </div>
+
+        <!-- 3. FRANJA DE AUTORÍA Y MATERIA DE FÍSICA MODERNA -->
+        <div class="author-bar">
+          <span><strong>Elaborado por:</strong> Rubén Concepción 8-1026-1720</span>
+          <span><strong>Materia:</strong> Física Moderna</span>
+          <span><strong>Escuela de Física — Universidad de Panamá</strong></span>
+        </div>
+
+        <!-- 4. CUADRÍCULA DE 2 COLUMNAS CON GIFS E IMÁGENES REALES TOMADOS DIRECTAMENTE DE SUS FUENTES WEB -->
+        <div class="poster-main-grid">
+
+          <!-- COLUMNA IZQUIERDA: SECCIONES 1, 2 y 4 -->
+          <div class="col-left">
+
+            <!-- SECCIÓN 1: INTRODUCCIÓN Y EMISIÓN ESTIMULADA (GIF REAL DE EASTERN ILLINOIS UNIVERSITY) -->
+            <section class="poster-section-outer" id="cell-0" onclick="zoomToSection(0, this)" tabindex="0" role="button" aria-label="1) Introducción y Emisión Estimulada">
+              <div class="section-header-bar">
+                <h3 class="section-magazine-title">1) Introducción y Emisión Estimulada</h3>
+                <span class="zoom-pill">Acercar ↗</span>
+              </div>
+
+              <!-- Cuadro independiente de la Figura 1: ARRIBA Figura 1 + Título + Nota con HTTPS clicable; ABAJO el GIF REAL -->
+              <div class="independent-figure-card">
+                <div class="apa-figure-top-header">
+                  <p class="apa-fig-number-title">
+                    <strong>Figura 1.</strong> <em>Comparación animada entre emisión espontánea y emisión estimulada (Davis, 2002)</em>
+                  </p>
+                  <p class="apa-fig-note-top">
+                    <strong>Nota.</strong> GIF animado del Departamento de Física de la Eastern Illinois University que ilustra la emisión espontánea frente a los dos fotones en fase de la emisión estimulada. Tomado de Davis (2002) <a class="https-fig-link" href="https://www.ux1.eiu.edu/~addavis/1160/Ch29Atm/Laser.html" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">https://www.ux1.eiu.edu/~addavis/1160/Ch29Atm/Laser.html</a>
+                  </p>
+                </div>
+                <div class="figure-image-holder style-rounded">
+                  <img class="contain-img" style="background:#ffffff;" src="https://www.ux1.eiu.edu/~addavis/1160/Ch29Atm/Images/image15.gif" alt="Figura 1 GIF real de emisión espontánea vs emisión estimulada" onerror="this.onerror=null; this.src='https://i.redd.it/h6r8griz81b51.gif';">
+                </div>
+              </div>
+            </section>
+
+            <!-- SECCIÓN 2: DEL MÁSER AL PRIMER LÁSER DE RUBÍ (FOTO REAL DE WIKIMEDIA COMMONS) -->
+            <section class="poster-section-outer" id="cell-1" onclick="zoomToSection(1, this)" tabindex="0" role="button" aria-label="2) Del Máser al Primer Láser de Rubí">
+              <div class="section-header-bar">
+                <h3 class="section-magazine-title">2) Del Máser al Primer Láser de Rubí</h3>
+                <span class="zoom-pill">Acercar ↗</span>
+              </div>
+
+              <!-- Cuadro independiente de la Figura 2 -->
+              <div class="independent-figure-card">
+                <div class="apa-figure-top-header">
+                  <p class="apa-fig-number-title">
+                    <strong>Figura 2.</strong> <em>Componentes originales del primer láser de rubí de Theodore H. Maiman (16 de mayo de 1960)</em>
+                  </p>
+                  <p class="apa-fig-note-top">
+                    <strong>Nota.</strong> Fotografía real del cristal cilíndrico de rubí sintético (Al<sub>2</sub>O<sub>3</sub>:Cr<sup>3+</sup>) y la lámpara helicoidal de destello de xenón (694.3 nm). Tomado de Wikimedia Commons (2026) <a class="https-fig-link" href="https://commons.wikimedia.org/wiki/File:5_Maiman_Laser_Components.jpg" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">https://commons.wikimedia.org/wiki/File:5_Maiman_Laser_Components.jpg</a>
+                  </p>
+                </div>
+                <div class="figure-image-holder style-wide">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/7/7d/5_Maiman_Laser_Components.jpg" alt="Figura 2 Componentes originales del láser de rubí de Maiman" onerror="this.onerror=null; this.src='https://upload.wikimedia.org/wikipedia/commons/5/5d/Ruby_laser_photons_many.png';">
+                </div>
+              </div>
+            </section>
+
+            <!-- SECCIÓN 4: PROPIEDADES DEL HAZ Y TIPOS DE LÁSER (GIF REAL DE WIKIMEDIA COMMONS) -->
+            <section class="poster-section-outer" id="cell-3" onclick="zoomToSection(3, this)" tabindex="0" role="button" aria-label="4) Propiedades del Haz y Tipos de Láser">
+              <div class="section-header-bar">
+                <h3 class="section-magazine-title">4) Propiedades del Haz y Tipos de Láser</h3>
+                <span class="zoom-pill">Acercar ↗</span>
+              </div>
+
+              <!-- Cuadro independiente de la Figura 4 -->
+              <div class="independent-figure-card">
+                <div class="apa-figure-top-header">
+                  <p class="apa-fig-number-title">
+                    <strong>Figura 4.</strong> <em>Propagación animada de ondas coherentes en una cavidad láser en anillo y haz colimado</em>
+                  </p>
+                  <p class="apa-fig-note-top">
+                    <strong>Nota.</strong> GIF animado real de fotones coherentes en fase dentro de una cavidad láser en anillo. Tomado de Wikimedia Commons (2013) <a class="https-fig-link" href="https://commons.wikimedia.org/wiki/File:Ring_laser_frequency_shift.gif" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">https://commons.wikimedia.org/wiki/File:Ring_laser_frequency_shift.gif</a>
+                  </p>
+                </div>
+                <div class="figure-image-holder style-circle">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Ring_laser_frequency_shift.gif" alt="Figura 4 GIF real de cavidad láser en anillo" onerror="this.onerror=null; this.src='https://upload.wikimedia.org/wikipedia/commons/4/47/LaserOrionAnim.gif';">
+                </div>
+              </div>
+            </section>
+
+          </div>
+
+          <!-- COLUMNA DERECHA: SECCIONES 3, 5 y 6 -->
+          <div class="col-right">
+
+            <!-- SECCIÓN 3: INVERSIÓN DE POBLACIÓN Y CAVIDAD RESONANTE (GIF REAL DE UNIVERSITY OF TENNESSEE) -->
+            <section class="poster-section-outer" id="cell-2" onclick="zoomToSection(2, this)" tabindex="0" role="button" aria-label="3) Inversión de Población y Cavidad Resonante">
+              <div class="section-header-bar">
+                <h3 class="section-magazine-title">3) Inversión de Población y Cavidad Resonante</h3>
+                <span class="zoom-pill">Acercar ↗</span>
+              </div>
+
+              <!-- Cuadro independiente de la Figura 3 -->
+              <div class="independent-figure-card">
+                <div class="apa-figure-top-header">
+                  <p class="apa-fig-number-title">
+                    <strong>Figura 3.</strong> <em>Animación real de población normal frente a inversión de población y cascada láser (Breinig, 2015)</em>
+                  </p>
+                  <p class="apa-fig-note-top">
+                    <strong>Nota.</strong> GIF animado del Departamento de Física de la University of Tennessee mostrando cómo la inversión de población multiplica los fotones en fase. Tomado de Breinig (2015) <a class="https-fig-link" href="https://labs.phys.utk.edu/mbreinig/phys222core/modules/m11/lasers.html" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">https://labs.phys.utk.edu/mbreinig/phys222core/modules/m11/lasers.html</a>
+                  </p>
+                </div>
+                <div class="figure-image-holder style-tall-arch">
+                  <img class="contain-img" style="background:#ffffff;" src="https://labs.phys.utk.edu/mbreinig/phys222core/modules/m11/images/lasers4.gif" alt="Figura 3 GIF real de inversión de población de University of Tennessee" onerror="this.onerror=null; this.src='images/laser_cavidad_resonante.svg';">
+                </div>
+              </div>
+            </section>
+
+            <!-- SECCIÓN 5: EL LÁSER EN LA FÍSICA MODERNA (GIF REAL DE PINZAS ÓPTICAS DE WIKIMEDIA / UMASS) -->
+            <section class="poster-section-outer" id="cell-4" onclick="zoomToSection(4, this)" tabindex="0" role="button" aria-label="5) El Láser en la Física Moderna">
+              <div class="section-header-bar">
+                <h3 class="section-magazine-title">5) El Láser en la Física Moderna</h3>
+                <span class="zoom-pill">Acercar ↗</span>
+              </div>
+
+              <!-- Cuadro independiente de la Figura 5 -->
+              <div class="independent-figure-card">
+                <div class="apa-figure-top-header">
+                  <p class="apa-fig-number-title">
+                    <strong>Figura 5.</strong> <em>Animación real de pinzas ópticas atrapando una microesfera y ARN-polimerasa con un haz láser</em>
+                  </p>
+                  <p class="apa-fig-note-top">
+                    <strong>Nota.</strong> GIF animado real del atrapamiento por fuerza de gradiente en el foco de un láser (pinzas ópticas de Ashkin, 1986). Tomado de Wikimedia Commons (2026) <a class="https-fig-link" href="https://commons.wikimedia.org/wiki/File:Optical_tweezers_and_RNA-polymerase_uk.gif" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">https://commons.wikimedia.org/wiki/File:Optical_tweezers_and_RNA-polymerase_uk.gif</a>
+                  </p>
+                </div>
+                <div class="figure-image-holder style-medium-box">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/b/b4/Optical_tweezers_and_RNA-polymerase_uk.gif" alt="Figura 5 GIF real de pinzas ópticas atrapando con láser" onerror="this.onerror=null; this.src='https://www.umass.edu/musclebiophy/images/figures/Animated-single-molecule-regulated-Laser-Trap.gif';">
+                </div>
+              </div>
+            </section>
+
+            <!-- SECCIÓN 6: CONCLUSIONES (GIF EXPERIMENTAL REAL DE CAPTURA DE ÁTOMOS CON LÁSER) -->
+            <section class="poster-section-outer" id="cell-5" onclick="zoomToSection(5, this)" tabindex="0" role="button" aria-label="6) Conclusiones">
+              <div class="section-header-bar">
+                <h3 class="section-magazine-title">6) Conclusiones</h3>
+                <span class="zoom-pill">Acercar ↗</span>
+              </div>
+
+              <!-- Cuadro independiente de la Figura 6 -->
+              <div class="independent-figure-card">
+                <div class="apa-figure-top-header">
+                  <p class="apa-fig-number-title">
+                    <strong>Figura 6.</strong> <em>Video experimental real de captura y enfriamiento de átomos con láser en trampa magneto-óptica</em>
+                  </p>
+                  <p class="apa-fig-note-top">
+                    <strong>Nota.</strong> Grabación real en bucle de una nube de átomos atrapada y liberada mediante haces láser. Tomado de Wikimedia Commons (2016) <a class="https-fig-link" href="https://commons.wikimedia.org/wiki/File:Magneto-optical_trap_release_and_capture.gif" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">https://commons.wikimedia.org/wiki/File:Magneto-optical_trap_release_and_capture.gif</a>
+                  </p>
+                </div>
+                <div class="figure-image-holder style-compact">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Magneto-optical_trap_release_and_capture.gif" alt="Figura 6 GIF experimental real de trampa magneto-óptica láser" onerror="this.onerror=null; this.src='https://upload.wikimedia.org/wikipedia/commons/6/61/Ultra-bright-atom-laser.gif';">
+                </div>
+              </div>
+            </section>
+
+          </div>
+
+        </div>
+
+        <!-- 5. PIE DEL PÓSTER: SECCIÓN DE REFERENCIAS SIEMPRE VISIBLE Y CLICABLE -->
+        <footer class="poster-footer-bar">
+          <div class="ref-header-row">
+            <h3 class="ref-section-title">Referencias</h3>
+            <button type="button" class="ref-open-btn" id="btn-open-refs" onclick="openReferencesModal()">Ampliar Todas las Referencias (APA 7)</button>
+          </div>
+          <div class="ref-inline-columns" onclick="openReferencesModal()" role="button" tabindex="0" aria-label="Ver todas las referencias bibliográficas">
+            <p class="ref-mini-item">Einstein, A. (1917). Zur Quantentheorie der Strahlung. <em>Physikalische Zeitschrift</em>, <em>18</em>, 121–128.</p>
+            <p class="ref-mini-item">Maiman, T. H. (1960). Stimulated optical radiation in ruby. <em>Nature</em>, <em>187</em>(4736), 493–494.</p>
+            <p class="ref-mini-item">Davis, A. D. (2002). <em>Lasers and stimulated emission</em>. Eastern Illinois University Physics.</p>
+            <p class="ref-mini-item">Breinig, M. (2015). <em>Lasers and population inversion</em>. University of Tennessee Physics.</p>
+            <p class="ref-mini-item">Ashkin, A., et al. (1986). Single-beam gradient force optical trap. <em>Optics Letters</em>, <em>11</em>(5), 288–290.</p>
+            <p class="ref-mini-item">Strickland, D., y Mourou, G. (1985). Compression of amplified chirped optical pulses. <em>Opt. Commun.</em>, <em>56</em>(3), 219–221.</p>
+          </div>
+        </footer>
+
+      </div>
+    </article>
+  </div>
+
+  <!-- Controles de la cámara. El contenido permanece dentro de la hoja original. -->
+  <div class="immersive-focus" id="immersive-focus" hidden>
+    <nav class="focus-toolbar" aria-label="Navegación del póster">
+      <button type="button" class="focus-back" id="focus-back">&larr; Volver al póster <kbd>Esc</kbd></button>
+      <span class="focus-counter" id="focus-counter" aria-live="polite" aria-atomic="true">01 / 06</span>
+      <div class="focus-actions">
+        <button type="button" id="focus-motion" aria-pressed="false">Pausar animación</button>
+        <button type="button" id="focus-references">Referencias</button>
+        <button type="button" id="focus-previous" aria-label="Sección anterior">&larr;</button>
+        <button type="button" id="focus-next" aria-label="Sección siguiente">&rarr;</button>
+      </div>
+    </nav>
+  </div>
+
+  <!-- ==========================================================================
+       MODAL DE REFERENCIAS BIBLIOGRÁFICAS (CON RESALTADO Y PARPADEO DE CITAS)
+       ========================================================================== -->
+  <div class="references-modal-backdrop" id="references-modal" role="dialog" aria-modal="true" aria-labelledby="refs-modal-title" hidden>
+    <div class="references-sheet">
+      <div class="references-sheet-header">
+        <h3 id="refs-modal-title">Referencias Bibliográficas (APA 7ma Edición)</h3>
+        <button type="button" class="nav-pill close-pill" id="btn-close-refs">&times; Cerrar Referencias</button>
+      </div>
+      <div class="references-list-container" id="references-list-container">
+        <p class="apa-ref-entry" id="ref-abbott">
+          Abbott, B. P., Abbott, R., Abbott, T. D., Abernathy, M. R., Acernese, F., Ackley, K., ... LIGO Scientific Collaboration and Virgo Collaboration. (2016). Observation of gravitational waves from a binary black hole merger. <em>Physical Review Letters</em>, <em>116</em>(6), 061102. <a href="https://link.aps.org/doi/10.1103/PhysRevLett.116.061102" target="_blank" rel="noopener noreferrer">https://link.aps.org/doi/10.1103/PhysRevLett.116.061102</a>
+        </p>
+        <p class="apa-ref-entry" id="ref-APS-history">
+          American Physical Society [APS]. (2010, mayo). <em>May 16, 1960: Maiman builds first working laser</em>. APS News Archives. <a href="https://www.aps.org/archives/publications/apsnews/201005/physicshistory.cfm" target="_blank" rel="noopener noreferrer">https://www.aps.org/archives/publications/apsnews/201005/physicshistory.cfm</a>
+        </p>
+        <p class="apa-ref-entry" id="ref-ashkin">
+          Ashkin, A., Dziedzic, J. M., Bjorkholm, J. E., y Chu, S. (1986). Observation of a single-beam gradient force optical trap for dielectric particles. <em>Optics Letters</em>, <em>11</em>(5), 288–290. <a href="https://opg.optica.org/ol/fulltext.cfm?uri=ol-11-5-288" target="_blank" rel="noopener noreferrer">https://opg.optica.org/ol/fulltext.cfm?uri=ol-11-5-288</a>
+        </p>
+        <p class="apa-ref-entry" id="ref-breinig">
+          Breinig, M. (2015). <em>Module 11: Lasers, metastable states, and population inversion</em>. Department of Physics and Astronomy, University of Tennessee. <a href="https://labs.phys.utk.edu/mbreinig/phys222core/modules/m11/lasers.html" target="_blank" rel="noopener noreferrer">https://labs.phys.utk.edu/mbreinig/phys222core/modules/m11/lasers.html</a>
+        </p>
+        <p class="apa-ref-entry" id="ref-davis">
+          Davis, A. D. (2002). <em>Chapter 29: Atomic physics — Spontaneous emission and stimulated emission in lasers</em>. Department of Physics, Eastern Illinois University. <a href="https://www.ux1.eiu.edu/~addavis/1160/Ch29Atm/Laser.html" target="_blank" rel="noopener noreferrer">https://www.ux1.eiu.edu/~addavis/1160/Ch29Atm/Laser.html</a>
+        </p>
+        <p class="apa-ref-entry" id="ref-einstein">
+          Einstein, A. (1917). Zur Quantentheorie der Strahlung [Sobre la teoría cuántica de la radiación]. <em>Physikalische Zeitschrift</em>, <em>18</em>, 121–128. <a href="https://scispace.com/pdf/zur-quantentheorie-der-strahlung-2oa7wmfe28.pdf" target="_blank" rel="noopener noreferrer">https://scispace.com/pdf/zur-quantentheorie-der-strahlung-2oa7wmfe28.pdf</a>
+        </p>
+        <p class="apa-ref-entry" id="ref-javan">
+          Javan, A., Bennett, W. R., Jr., y Herriott, D. R. (1961). Population inversion and continuous optical maser oscillation in a gas discharge containing a He-Ne mixture. <em>Physical Review Letters</em>, <em>6</em>(3), 106–110. <a href="https://link.aps.org/doi/10.1103/PhysRevLett.6.106" target="_blank" rel="noopener noreferrer">https://link.aps.org/doi/10.1103/PhysRevLett.6.106</a>
+        </p>
+        <p class="apa-ref-entry" id="ref-llnl">
+          Lawrence Livermore National Laboratory [LLNL]. (2024, 20 de junio). <em>Fusion ignition and the path to inertial fusion energy at the National Ignition Facility</em>. U.S. Department of Energy. <a href="https://lmf.llnl.gov/news/fusion-ignition-and-the-path-to-inertial-fusion-energy" target="_blank" rel="noopener noreferrer">https://lmf.llnl.gov/news/fusion-ignition-and-the-path-to-inertial-fusion-energy</a>
+        </p>
+        <p class="apa-ref-entry" id="ref-maiman">
+          Maiman, T. H. (1960). Stimulated optical radiation in ruby. <em>Nature</em>, <em>187</em>(4736), 493–494. <a href="https://www.dpma.de/docs/dpma/veroeffentlichungen/meilensteine/2020/artikellasermaimannature1960.pdf" target="_blank" rel="noopener noreferrer">https://www.dpma.de/docs/dpma/veroeffentlichungen/meilensteine/2020/artikellasermaimannature1960.pdf</a>
+        </p>
+        <p class="apa-ref-entry" id="ref-salaheldin">
+          Salaheldin, M. M. (2020). <em>Types of lasers: Solid-state, gas, excimer, and semiconductor lasers in physics and medicine</em>. Umm Al-Qura University. <a href="https://drive.uqu.edu.sa/_/mmsalaheldin/files/Laser%20in%20Medicine/Laser%20in%20Midecine-Chapter%20Three.pdf" target="_blank" rel="noopener noreferrer">https://drive.uqu.edu.sa/_/mmsalaheldin/files/Laser%20in%20Medicine/Laser%20in%20Midecine-Chapter%20Three.pdf</a>
+        </p>
+        <p class="apa-ref-entry" id="ref-schawlow">
+          Schawlow, A. L., y Townes, C. H. (1958). Infrared and optical masers. <em>Physical Review</em>, <em>112</em>(6), 1940–1949. <a href="https://sites.unimi.it/aqm/wp-content/uploads/Schawlow-1958.pdf" target="_blank" rel="noopener noreferrer">https://sites.unimi.it/aqm/wp-content/uploads/Schawlow-1958.pdf</a>
+        </p>
+        <p class="apa-ref-entry" id="ref-siegman">
+          Siegman, A. E. (1986). <em>Lasers</em>. University Science Books. Citado en <em>An Advanced Laser Technology</em>. <a href="https://www.internationaljournalssrg.org/IJAP/paper-details?Id=55" target="_blank" rel="noopener noreferrer">https://www.internationaljournalssrg.org/IJAP/paper-details?Id=55</a>
+        </p>
+        <p class="apa-ref-entry" id="ref-strickland">
+          Strickland, D., y Mourou, G. (1985). Compression of amplified chirped optical pulses. <em>Optics Communications</em>, <em>56</em>(3), 219–221. <a href="https://www.physics.utoronto.ca/~photonic/wwwphotonics/dloads/StricklandCPA1985.pdf" target="_blank" rel="noopener noreferrer">https://www.physics.utoronto.ca/~photonic/wwwphotonics/dloads/StricklandCPA1985.pdf</a>
+        </p>
+        <p class="apa-ref-entry" id="ref-umass">
+          UMass Muscle Biophysics Lab. (2024). <em>Single-molecule regulated laser trap (Optical tweezers technique)</em>. University of Massachusetts Amherst. <a href="https://www.umass.edu/musclebiophy/techniques%20-%20laser%20trap.html" target="_blank" rel="noopener noreferrer">https://www.umass.edu/musclebiophy/techniques%20-%20laser%20trap.html</a>
+        </p>
+        <p class="apa-ref-entry" id="ref-wiley-laser">
+          Wiley-VCH. (2012). <em>Lasers: Fundamentals, types, and operations</em>. Wiley-VCH Verlag GmbH. <a href="https://application.wiley-vch.de/books/sample/3527327150_c01.pdf" target="_blank" rel="noopener noreferrer">https://application.wiley-vch.de/books/sample/3527327150_c01.pdf</a>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  </main>
+  <!-- Cámara sobre el póster, disponible después de la fecha de apertura. -->
+  <script src="poster_immersivo.js"></script>
+</body>
+</html>

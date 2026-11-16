@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#edf0e9">
+  <meta name="description" content="Pósters de exámenes finales de Rubén Concepción, Escuela de Física de la Universidad de Panamá. Púlsares, láser y una próxima entrega.">
+  <title>Trabajos de exámenes finales · Pósters de Rubén Concepción</title>
+  <link rel="stylesheet" href="index.css">
+  <script defer src="entregas.js"></script>
+</head>
+<body class="collection-page" data-release-page="index">
+  <div class="landscape" aria-hidden="true">
+    <img src="images/fondo_casa_montanas_acuarela_vertical.png" alt="" fetchpriority="high">
+    <div class="landscape-light"></div>
+  </div>
+  <a class="skip-link" href="#posters">Ir a los pósters</a>
+  <div class="collection-shell">
+    <header class="collection-header">
+      <a class="collection-brand" href="index.html" aria-label="Inicio de los trabajos finales">
+        <img src="images/logo_fisica_recortado.svg" alt="Escuela de Física" width="46" height="46">
+        <span>Archivo académico<small>Escuela de Física</small></span>
+      </a>
+      <div class="collection-author"><span>Rubén Concepción</span><small>Universidad de Panamá</small></div>
+    </header>
+
+    <main id="posters">
+      <section class="collection-intro" aria-labelledby="collection-title">
+        <p class="eyebrow"><span></span> Colección de pósters · 2026</p>
+        <h1 id="collection-title">Trabajos de<br><em>exámenes finales.</em></h1>
+        <div class="intro-bottom">
+          <p>Una mirada a la física, desde la luz<br class="desktop-break"> hasta las estrellas.</p>
+          <span class="browse-hint">Elige un póster para explorar <span aria-hidden="true">↘</span></span>
+        </div>
+      </section>
+
+      <section class="poster-gallery" aria-label="Pósters y próxima entrega">
+        <a class="project-card" href="p_ster_cient_fico_a0_vertical_los_p_lsares_rub_n_concepci_n_universidad_de_panam.html" aria-labelledby="pulsar-title">
+          <div class="card-art art-forest">
+            <img src="images/fondo_bosque_acuarela_vertical.png" alt="" loading="lazy">
+            <span class="card-number">01 / Astrofísica</span>
+            <svg class="topic-mark pulsar-mark" viewBox="0 0 120 90" fill="none" aria-hidden="true">
+              <path d="M29 76L91 14M34 78L86 12" stroke="currentColor" stroke-width="1" opacity=".5"/>
+              <ellipse cx="60" cy="45" rx="34" ry="12" transform="rotate(-22 60 45)" stroke="currentColor"/>
+              <ellipse cx="60" cy="45" rx="23" ry="8" transform="rotate(-22 60 45)" stroke="currentColor" opacity=".7"/>
+              <circle cx="60" cy="45" r="5" fill="currentColor"/>
+            </svg>
+            <span class="availability"><i></i> Disponible</span>
+          </div>
+          <div class="card-copy">
+            <p class="card-subject">Ciencia del Espacio y la Tierra</p>
+            <h2 id="pulsar-title">Los púlsares</h2>
+            <p class="card-description">Faros del cosmos, estrellas de neutrones y cronometraje galáctico.</p>
+            <div class="card-bottom"><span>Explorar póster</span><span class="card-arrow" aria-hidden="true">↗</span></div>
+          </div>
+        </a>
+
+        <article class="project-card locked-card" id="laser-card" aria-labelledby="laser-title">
+          <div class="card-art art-mountains">
+            <img src="images/fondo_casa_montanas_acuarela_vertical.png" alt="" loading="lazy">
+            <span class="card-number">02 / Física moderna</span>
+            <svg class="topic-mark laser-mark" viewBox="0 0 120 90" fill="none" aria-hidden="true">
+              <path d="M12 45H108" stroke="currentColor" opacity=".35"/>
+              <path d="M12 45Q18 17 24 45T36 45T48 45T60 45T72 45T84 45T96 45T108 45" stroke="currentColor" stroke-width="1.5"/>
+              <path d="M106 41L111 45L106 49" stroke="currentColor"/>
+            </svg>
+            <span class="availability waiting" id="release-badge">Acceso bloqueado</span>
+          </div>
+          <div class="card-copy">
+            <p class="card-subject">Física Moderna · <time datetime="2026-11-18T00:00:00-05:00">Miércoles 18 de noviembre</time></p>
+            <h2 id="laser-title">El láser</h2>
+            <p class="release-status" id="release-status" aria-live="polite">Este póster se habilita a las 00:00, hora de Panamá.</p>
+            <div class="countdown" data-countdown role="timer" aria-label="Tiempo restante para el póster de láser">
+              <div><strong data-days>--</strong><span>Días</span></div>
+              <b aria-hidden="true">:</b><div><strong data-hours>--</strong><span>Horas</span></div>
+              <b aria-hidden="true">:</b><div><strong data-minutes>--</strong><span>Min</span></div>
+              <b aria-hidden="true">:</b><div><strong data-seconds>--</strong><span>Seg</span></div>
+            </div>
+            <button type="button" class="release-button" id="release-button" disabled aria-disabled="true">Disponible el 18 de noviembre <span aria-hidden="true">↗</span></button>
+          </div>
+        </article>
+
+        <article class="project-card locked-card" id="upcoming-card" aria-labelledby="upcoming-title">
+          <div class="card-art art-upcoming">
+            <img src="images/fondo_casa_montanas_acuarela_vertical.png" alt="" loading="lazy">
+            <span class="card-number">03 / Próximamente</span>
+            <div class="lock-emblem" id="lock-emblem" aria-hidden="true">
+              <svg viewBox="0 0 32 36" fill="none"><path d="M9 15V10a7 7 0 0 1 14 0v5" stroke="currentColor" stroke-width="1.5"/><rect x="4" y="15" width="24" height="18" rx="4" stroke="currentColor" stroke-width="1.5"/><path d="M16 23v4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+            </div>
+            <span class="availability waiting">Por anunciar</span>
+          </div>
+          <div class="card-copy">
+            <p class="card-subject">Un nuevo trabajo</p>
+            <h2 id="upcoming-title">Próxima entrega</h2>
+            <p class="card-description">Un espacio reservado para el siguiente trabajo de exámenes finales.</p>
+            <button type="button" class="release-button" disabled aria-disabled="true">Fecha por anunciar</button>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <footer class="collection-footer"><span>Universidad de Panamá <b>·</b> Escuela de Física</span><span>Noviembre, 2026</span></footer>
+  </div>
+</body>
+</html>

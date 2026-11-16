@@ -1,0 +1,46 @@
+/* Casa y montañas: variación azul y terracota sobre la misma estructura inmersiva. */
+:root {
+  --bg-poster: #f5f5ee;
+  --ink-black: #293c43;
+  --ink-crimson: #76533f;
+  --ink-chocolate: #536c72;
+  --line-rule: #8c9e9d;
+  --border-soft: #bdc9c6;
+  --surface-warm: #f7f7ef;
+  --gold-highlight: #a38362;
+}
+body { background: #e2e8e6; }
+.poster-sheet { border-color: #9aaba6; box-shadow: 0 16px 55px #344b4b20; }
+.main-poster-title { color: #536b78; }
+.corner-svg path { stroke: #8c9b9d; }
+.section-preview { color: #465f66; }
+.zoom-pill { background: #f5f8f6; border-color: #7c9297; color: #536b78; }
+#custom-background-slot { background: #f7f7f0; }
+#custom-background-slot::after { background: #fdfbf531; }
+.scene-photo { opacity: .88; }
+.scene-mountain-mist { opacity: .22; mix-blend-mode: screen; }
+.camera-active .scene-mountain-mist { animation: mountain-mist 15s ease-in-out infinite alternate; }
+.motion-paused .scene-mountain-mist { animation-play-state: paused; }
+@keyframes mountain-mist { from { opacity: .12; transform: translateY(0); } to { opacity: .32; transform: translateY(-3px); } }
+.poster-stage-wrapper.camera-active { background: #edf0e9; }
+.is-focused .section-magazine-title { color: #3e5b68; }
+.camera-selected { outline-color: #8c9e9d; }
+.poster-section-outer.is-focused, .camera-world .poster-section-outer.is-focused { border-color: #8c9e9d; }
+.section-detail-group h4 { color: #6a7e83; }
+.section-detail-paragraph { color: #293c43; }
+.is-focused .section-details { scrollbar-color: #a9b9b9 #f4f7f2; }
+.focus-toolbar { background: #fbfbf4f5; border-color: #aebdb9; }
+.focus-toolbar button { color: #45616b; }
+.focus-toolbar button:hover, .focus-toolbar button[aria-pressed="true"] { background: #e6eeeb; }
+.focus-counter { color: #6f8389; }
+.references-sheet { background: #f8f9f3; }
+.references-sheet-header { background: #e9eeea; }
+.section-extra-media {
+  flex-shrink: 0; background: #fcfaf6; padding: calc(14px / var(--camera-scale));
+  border: calc(1px / var(--camera-scale)) solid #bac6c1;
+  border-radius: calc(6px / var(--camera-scale)); font-size: calc(14px / var(--camera-scale));
+}
+.section-extra-media summary { cursor: pointer; color: #5b737e; font-family: var(--font-magazine); }
+.extra-media-note { margin-block: calc(12px / var(--camera-scale)); line-height: 1.5; }
+.section-extra-media img { display: block; width: 100%; max-height: calc(250px / var(--camera-scale)); object-fit: contain; opacity: 1; background: #fcfaf6; }
+@media (prefers-reduced-motion: reduce) { .scene-mountain-mist { animation: none; } }
