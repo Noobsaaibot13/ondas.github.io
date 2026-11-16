@@ -1,0 +1,108 @@
+{
+  "checks": [
+    {
+      "name": "Solo El láser tiene contador y bloqueo",
+      "pass": true,
+      "evidence": {
+        "timers": 1,
+        "owner": "laser-card",
+        "blocked": true,
+        "thirdTimers": 0,
+        "days": "01",
+        "hours": "12",
+        "pulsar": true
+      }
+    },
+    {
+      "name": "Cuenta hasta el miércoles 18 a las 00:00 de Panamá",
+      "pass": true,
+      "evidence": {
+        "timers": 1,
+        "owner": "laser-card",
+        "blocked": true,
+        "thirdTimers": 0,
+        "days": "01",
+        "hours": "12",
+        "pulsar": true
+      }
+    },
+    {
+      "name": "La tarjeta del láser no navega antes de tiempo",
+      "pass": true
+    },
+    {
+      "name": "La URL directa del láser muestra el bloqueo y oculta el póster",
+      "pass": true
+    },
+    {
+      "name": "Un segundo antes el láser sigue bloqueado",
+      "pass": true
+    },
+    {
+      "name": "A las 00:00 se muestra el póster en la misma página",
+      "pass": true
+    },
+    {
+      "name": "La figura complementaria 3 carga como SVG local sin red",
+      "pass": true,
+      "evidence": {
+        "source": "images/laser_cavidad_resonante.svg",
+        "width": 960,
+        "height": 540,
+        "note": "Esquema de cavidad resonante Fabry-Pérot: Medio activo con bombeo, espejo reflector, espejo semitransparente y haz de salida. Esquema elaborado para este póster. Referencia conceptual: Siegman (1986). Ver esquema completo."
+      }
+    },
+    {
+      "name": "La nueva nota identifica correctamente el esquema elaborado",
+      "pass": true,
+      "evidence": {
+        "source": "images/laser_cavidad_resonante.svg",
+        "width": 960,
+        "height": 540,
+        "note": "Esquema de cavidad resonante Fabry-Pérot: Medio activo con bombeo, espejo reflector, espejo semitransparente y haz de salida. Esquema elaborado para este póster. Referencia conceptual: Siegman (1986). Ver esquema completo."
+      }
+    },
+    {
+      "name": "El recuadro de la figura reparada sigue completo en móvil",
+      "pass": true,
+      "evidence": {
+        "left": 12,
+        "right": 377.9998474121094,
+        "top": 12,
+        "bottom": 714.9825439453125,
+        "toolbar": 737,
+        "image": 960
+      }
+    },
+    {
+      "name": "La fecha se vuelve a comprobar al recuperar la página",
+      "pass": true
+    },
+    {
+      "name": "Púlsares continúa disponible antes del miércoles",
+      "pass": true
+    },
+    {
+      "name": "La tarjeta del láser se habilita al alcanzar la fecha",
+      "pass": true
+    },
+    {
+      "name": "El botón habilitado abre el archivo real del láser",
+      "pass": true
+    },
+    {
+      "name": "El espacio por anunciar ya no tiene temporizador",
+      "pass": true
+    },
+    {
+      "name": "Se conservan los 18 párrafos y las otras cinco figuras complementarias",
+      "pass": true
+    },
+    {
+      "name": "Sin errores JavaScript",
+      "pass": true,
+      "evidence": []
+    }
+  ],
+  "errors": []
+}
