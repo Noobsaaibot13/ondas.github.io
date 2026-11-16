@@ -1,0 +1,428 @@
+{
+  "checks": [
+    {
+      "name": "Fondo vertical, resúmenes y logos recortados cargados",
+      "pass": true,
+      "evidence": {
+        "previews": 6,
+        "paragraphs": 18,
+        "portrait": true,
+        "logos": [
+          {
+            "src": "images/logo_fisica_recortado.svg",
+            "loaded": true
+          },
+          {
+            "src": "images/logo_universidad_recortado.svg",
+            "loaded": true
+          }
+        ],
+        "painting": {
+          "width": 1055,
+          "height": 1491
+        }
+      }
+    },
+    {
+      "name": "Primero la cámara amplía el recuadro original sin reorganizarlo",
+      "pass": true,
+      "evidence": {
+        "reframed": false,
+        "scale": 2.59331,
+        "originals": true,
+        "pictures": 1
+      }
+    },
+    {
+      "name": "Introducción completa dentro del borde y en la misma hoja",
+      "pass": true,
+      "evidence": {
+        "id": "cell-0",
+        "inSheet": true,
+        "sameParent": true,
+        "sameFigure": true,
+        "sameNote": true,
+        "box": {
+          "left": 30,
+          "top": 30,
+          "right": 1410,
+          "bottom": 893.9618530273438,
+          "width": 1380,
+          "height": 863.9618530273438
+        },
+        "toolbarTop": 934,
+        "width": 1440,
+        "height": 1000,
+        "uniform": true,
+        "scale": 3.89831,
+        "paragraphPixels": 16.0000286485,
+        "figurePixels": 12.500008981199999,
+        "figureInside": true,
+        "pictures": 1,
+        "backgroundParent": true,
+        "opaque": "rgb(252, 250, 246)",
+        "readingScroll": false,
+        "layout": {
+          "height": "221.625px",
+          "requested": "221.63478260869567px",
+          "scale": "3.8983050847457625",
+          "font": "4.10435px",
+          "stageScroll": 0,
+          "sectionScroll": 0
+        }
+      }
+    },
+    {
+      "name": "Pausa de animación en el fondo único",
+      "pass": true
+    },
+    {
+      "name": "Referencia accesible desde el texto",
+      "pass": true
+    },
+    {
+      "name": "Recuadro completo e íntegro de sección 2",
+      "pass": true,
+      "evidence": {
+        "id": "cell-1",
+        "inSheet": true,
+        "sameParent": true,
+        "sameFigure": true,
+        "sameNote": true,
+        "box": {
+          "left": 30,
+          "top": 30.0001220703125,
+          "right": 1410,
+          "bottom": 893.962158203125,
+          "width": 1380,
+          "height": 863.9620361328125
+        },
+        "toolbarTop": 934,
+        "width": 1440,
+        "height": 1000,
+        "uniform": true,
+        "scale": 3.89831,
+        "paragraphPixels": 16.0000286485,
+        "figurePixels": 12.500008981199999,
+        "figureInside": true,
+        "pictures": 1,
+        "backgroundParent": true,
+        "opaque": "rgb(252, 250, 246)",
+        "readingScroll": false,
+        "layout": {
+          "height": "221.625px",
+          "requested": "221.63478260869567px",
+          "scale": "3.8983050847457625",
+          "font": "4.10435px",
+          "stageScroll": 0,
+          "sectionScroll": 0
+        }
+      }
+    },
+    {
+      "name": "Recuadro completo e íntegro de sección 3",
+      "pass": true,
+      "evidence": {
+        "id": "cell-2",
+        "inSheet": true,
+        "sameParent": true,
+        "sameFigure": true,
+        "sameNote": true,
+        "box": {
+          "left": 30,
+          "top": 30,
+          "right": 1410,
+          "bottom": 893.95361328125,
+          "width": 1380,
+          "height": 863.95361328125
+        },
+        "toolbarTop": 934,
+        "width": 1440,
+        "height": 1000,
+        "uniform": true,
+        "scale": 3.8764,
+        "paragraphPixels": 15.999996055999999,
+        "figurePixels": 12.499994496,
+        "figureInside": true,
+        "pictures": 1,
+        "backgroundParent": true,
+        "opaque": "rgb(252, 250, 246)",
+        "readingScroll": false,
+        "layout": {
+          "height": "222.875px",
+          "requested": "222.88695652173914px",
+          "scale": "3.8764044943820224",
+          "font": "4.12754px",
+          "stageScroll": 0,
+          "sectionScroll": 0
+        }
+      }
+    },
+    {
+      "name": "Recuadro completo e íntegro de sección 4",
+      "pass": true,
+      "evidence": {
+        "id": "cell-3",
+        "inSheet": true,
+        "sameParent": true,
+        "sameFigure": true,
+        "sameNote": true,
+        "box": {
+          "left": 30,
+          "top": 30.000244140625,
+          "right": 1410,
+          "bottom": 893.962158203125,
+          "width": 1380,
+          "height": 863.9619140625
+        },
+        "toolbarTop": 934,
+        "width": 1440,
+        "height": 1000,
+        "uniform": true,
+        "scale": 3.89831,
+        "paragraphPixels": 16.0000286485,
+        "figurePixels": 12.500008981199999,
+        "figureInside": true,
+        "pictures": 1,
+        "backgroundParent": true,
+        "opaque": "rgb(252, 250, 246)",
+        "readingScroll": false,
+        "layout": {
+          "height": "221.625px",
+          "requested": "221.63478260869567px",
+          "scale": "3.8983050847457625",
+          "font": "4.10435px",
+          "stageScroll": 0,
+          "sectionScroll": 0
+        }
+      }
+    },
+    {
+      "name": "Recuadro completo e íntegro de sección 5",
+      "pass": true,
+      "evidence": {
+        "id": "cell-4",
+        "inSheet": true,
+        "sameParent": true,
+        "sameFigure": true,
+        "sameNote": true,
+        "box": {
+          "left": 30,
+          "top": 30,
+          "right": 1410,
+          "bottom": 893.95361328125,
+          "width": 1380,
+          "height": 863.95361328125
+        },
+        "toolbarTop": 934,
+        "width": 1440,
+        "height": 1000,
+        "uniform": true,
+        "scale": 3.8764,
+        "paragraphPixels": 15.999996055999999,
+        "figurePixels": 12.499994496,
+        "figureInside": true,
+        "pictures": 1,
+        "backgroundParent": true,
+        "opaque": "rgb(252, 250, 246)",
+        "readingScroll": true,
+        "layout": {
+          "height": "222.875px",
+          "requested": "222.88695652173914px",
+          "scale": "3.8764044943820224",
+          "font": "4.12754px",
+          "stageScroll": 0,
+          "sectionScroll": 0
+        }
+      }
+    },
+    {
+      "name": "Recuadro completo e íntegro de sección 6",
+      "pass": true,
+      "evidence": {
+        "id": "cell-5",
+        "inSheet": true,
+        "sameParent": true,
+        "sameFigure": true,
+        "sameNote": true,
+        "box": {
+          "left": 30,
+          "top": 30,
+          "right": 1410,
+          "bottom": 893.95361328125,
+          "width": 1380,
+          "height": 863.95361328125
+        },
+        "toolbarTop": 934,
+        "width": 1440,
+        "height": 1000,
+        "uniform": true,
+        "scale": 3.8764,
+        "paragraphPixels": 15.999996055999999,
+        "figurePixels": 12.499994496,
+        "figureInside": true,
+        "pictures": 1,
+        "backgroundParent": true,
+        "opaque": "rgb(252, 250, 246)",
+        "readingScroll": false,
+        "layout": {
+          "height": "222.875px",
+          "requested": "222.88695652173914px",
+          "scale": "3.8764044943820224",
+          "font": "4.12754px",
+          "stageScroll": 0,
+          "sectionScroll": 0
+        }
+      }
+    },
+    {
+      "name": "Cada sección conserva un recorte diferente del bosque",
+      "pass": true,
+      "evidence": {
+        "introduction": {
+          "x": -55.76271438598633,
+          "y": -852.2351684570312
+        },
+        "conclusions": {
+          "x": -1435.2808837890625,
+          "y": -2977.726318359375
+        }
+      }
+    },
+    {
+      "name": "Regreso sin reemplazar, clonar ni mover secciones",
+      "pass": true
+    },
+    {
+      "name": "Móvil: recuadro entero y letras legibles",
+      "pass": true,
+      "evidence": {
+        "id": "cell-0",
+        "inSheet": true,
+        "sameParent": true,
+        "sameFigure": true,
+        "sameNote": true,
+        "box": {
+          "left": 12,
+          "top": 12,
+          "right": 377.9998474121094,
+          "bottom": 714.9825439453125,
+          "width": 365.9998474121094,
+          "height": 702.9825439453125
+        },
+        "toolbarTop": 737,
+        "width": 390,
+        "height": 844,
+        "uniform": true,
+        "scale": 1.17762,
+        "paragraphPixels": 16.000087416,
+        "figurePixels": 12.500083013999998,
+        "figureInside": true,
+        "pictures": 1,
+        "backgroundParent": true,
+        "opaque": "rgb(252, 250, 246)",
+        "readingScroll": false,
+        "layout": {
+          "height": "596.953px",
+          "requested": "596.9680081967214px",
+          "scale": "1.1776175445708934",
+          "font": "13.5868px",
+          "stageScroll": 0,
+          "sectionScroll": 0
+        }
+      }
+    },
+    {
+      "name": "Móvil: último recuadro completo",
+      "pass": true,
+      "evidence": {
+        "id": "cell-5",
+        "inSheet": true,
+        "sameParent": true,
+        "sameFigure": true,
+        "sameNote": true,
+        "box": {
+          "left": 12,
+          "top": 12,
+          "right": 377.9998474121094,
+          "bottom": 714.982421875,
+          "width": 365.9998474121094,
+          "height": 702.982421875
+        },
+        "toolbarTop": 737,
+        "width": 390,
+        "height": 844,
+        "uniform": true,
+        "scale": 1.17762,
+        "paragraphPixels": 16.000087416,
+        "figurePixels": 12.500083013999998,
+        "figureInside": true,
+        "pictures": 1,
+        "backgroundParent": true,
+        "opaque": "rgb(252, 250, 246)",
+        "readingScroll": false,
+        "layout": {
+          "height": "596.953px",
+          "requested": "596.9680081967214px",
+          "scale": "1.1776175445708934",
+          "font": "13.5868px",
+          "stageScroll": 0,
+          "sectionScroll": 0
+        }
+      }
+    },
+    {
+      "name": "Referencias desde la vista general",
+      "pass": true
+    },
+    {
+      "name": "Cámara ajustada después de cambiar el tamaño de ventana",
+      "pass": true,
+      "evidence": {
+        "id": "cell-0",
+        "inSheet": true,
+        "sameParent": true,
+        "sameFigure": true,
+        "sameNote": true,
+        "box": {
+          "left": 30,
+          "top": 30,
+          "right": 1249.9996337890625,
+          "bottom": 693.9432373046875,
+          "width": 1219.9996337890625,
+          "height": 663.9432373046875
+        },
+        "toolbarTop": 734,
+        "width": 1280,
+        "height": 800,
+        "uniform": true,
+        "scale": 3.92539,
+        "paragraphPixels": 16.000007401700003,
+        "figurePixels": 12.500011916000002,
+        "figureInside": true,
+        "pictures": 1,
+        "backgroundParent": true,
+        "opaque": "rgb(252, 250, 246)",
+        "readingScroll": true,
+        "layout": {
+          "height": "169.141px",
+          "requested": "169.15508852459018px",
+          "scale": "3.9253918152363116",
+          "font": "4.07603px",
+          "stageScroll": 0,
+          "sectionScroll": 0
+        }
+      }
+    },
+    {
+      "name": "Impresión restaura la hoja y sus seis secciones",
+      "pass": true
+    },
+    {
+      "name": "Sin errores JavaScript",
+      "pass": true,
+      "evidence": []
+    }
+  ],
+  "errors": []
+}

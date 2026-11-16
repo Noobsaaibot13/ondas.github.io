@@ -1,0 +1,158 @@
+{
+  "checks": [
+    {
+      "name": "Carga de fondo y seis secciones con todos los párrafos",
+      "pass": true,
+      "evidence": {
+        "sections": 6,
+        "paragraphs": 18,
+        "photo": 1672,
+        "horizontal": false
+      }
+    },
+    {
+      "name": "Acercamiento real con escala intermedia desde el cuadro pulsado",
+      "pass": true,
+      "evidence": {
+        "width": 969.7320556640625,
+        "viewport": 1440,
+        "transform": "matrix(0.680514, 0, 0, 0.673919, 151.543, 95.0932)"
+      }
+    },
+    {
+      "name": "Zoom de la misma sección y figura, nota intacta y superficie opaca",
+      "pass": true,
+      "evidence": {
+        "sameSection": true,
+        "sameFigure": true,
+        "sameNote": true,
+        "width": 1425,
+        "height": 1000,
+        "background": "rgb(252, 250, 246)",
+        "paragraphs": 3,
+        "layers": 6,
+        "focus": "focus-back",
+        "inert": true,
+        "overflow": true,
+        "mathErrors": 0
+      }
+    },
+    {
+      "name": "Pausa de animaciones SVG",
+      "pass": true
+    },
+    {
+      "name": "Referencias sobre la sección y cita resaltada",
+      "pass": true
+    },
+    {
+      "name": "Escape cierra referencias y mantiene el acercamiento",
+      "pass": true
+    },
+    {
+      "name": "Navegación íntegra a sección 2",
+      "pass": true,
+      "evidence": {
+        "id": "cell-1",
+        "same": true,
+        "figure": true,
+        "note": true,
+        "paragraphs": 3,
+        "horizontal": false,
+        "count": "02 / 06"
+      }
+    },
+    {
+      "name": "Navegación íntegra a sección 3",
+      "pass": true,
+      "evidence": {
+        "id": "cell-2",
+        "same": true,
+        "figure": true,
+        "note": true,
+        "paragraphs": 3,
+        "horizontal": false,
+        "count": "03 / 06"
+      }
+    },
+    {
+      "name": "Navegación íntegra a sección 4",
+      "pass": true,
+      "evidence": {
+        "id": "cell-3",
+        "same": true,
+        "figure": true,
+        "note": true,
+        "paragraphs": 3,
+        "horizontal": false,
+        "count": "04 / 06"
+      }
+    },
+    {
+      "name": "Navegación íntegra a sección 5",
+      "pass": true,
+      "evidence": {
+        "id": "cell-4",
+        "same": true,
+        "figure": true,
+        "note": true,
+        "paragraphs": 3,
+        "horizontal": false,
+        "count": "05 / 06"
+      }
+    },
+    {
+      "name": "Navegación íntegra a sección 6",
+      "pass": true,
+      "evidence": {
+        "id": "cell-5",
+        "same": true,
+        "figure": true,
+        "note": true,
+        "paragraphs": 3,
+        "horizontal": false,
+        "count": "06 / 06"
+      }
+    },
+    {
+      "name": "Regreso restaura la cuadrícula y el foco",
+      "pass": true
+    },
+    {
+      "name": "Vista móvil accesible, sin desborde y con movimiento reducido",
+      "pass": true,
+      "evidence": {
+        "id": "cell-0",
+        "width": 390,
+        "scrollWidth": 390,
+        "scrollHeight": 2171,
+        "clientHeight": 844,
+        "toolbar": {
+          "left": 12,
+          "right": 378,
+          "bottom": 832
+        },
+        "animation": "none",
+        "mathErrors": 0
+      }
+    },
+    {
+      "name": "Referencias desde la hoja sin zoom",
+      "pass": true
+    },
+    {
+      "name": "Restauración desde referencias",
+      "pass": true
+    },
+    {
+      "name": "Impresión restaura todas las figuras en la hoja",
+      "pass": true
+    },
+    {
+      "name": "Sin errores JavaScript",
+      "pass": true,
+      "evidence": []
+    }
+  ],
+  "errors": []
+}
